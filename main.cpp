@@ -1,0 +1,31 @@
+#include<iostream>
+using namespace std;
+
+class Point{
+    public:
+
+        int x;
+        int y;
+
+        void print(){
+            cout<<"("<< x <<","<< y <<")"<<endl;
+        };
+
+    };
+
+int main(){
+    Point p1;
+    p1.x = 1;
+    p1.y = 2;
+    p1.print();
+    Point p2;
+    p2.x = 3;
+    p2.y = 4;
+    p2.print();
+    Point p3;
+    p3.x = 5;
+    p3.y = 6;
+    p3.print();
+
+    return 0;
+}
